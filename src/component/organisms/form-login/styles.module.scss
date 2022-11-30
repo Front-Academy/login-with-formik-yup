@@ -1,18 +1,17 @@
 .container {
-    min-width: 300px;
-    padding: 1rem;
-    background-color: #dbdbdb;
-    border-radius: 4px;
-  }
-  
-  .form {
-    display: flex;
-    flex-flow: column;
-    gap: 0.5rem;
-  }
-  
-  .or {
-    text-align: center;
-    color: black;
-  }
-  
+  min-width: 300px;
+  padding: 1rem;
+  background-color: #dbdbdb;
+  border-radius: 4px;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}
+
+.or {
+  text-align: center;
+  color: black;
+}
