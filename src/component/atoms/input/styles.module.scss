@@ -1,0 +1,23 @@
+.Input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  color: black;
+
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.errorMensage {
+  padding: 5px;
+  font-size: 12px;
+  color: red;
+  font-style: italic;
+}
