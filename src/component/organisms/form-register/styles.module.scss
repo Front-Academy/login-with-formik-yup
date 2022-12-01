@@ -1,0 +1,44 @@
+.container {
+    min-width: 300px;
+    padding: 1rem;
+    background-color: #dbdbdb;
+    border-radius: 4px;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .subtitle {
+    color: gray;
+  }
+  
+  .titleProjects {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .containerProjects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .item {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+  }
+  
+  .remove{
+    color: red;
+    font-size: 12px;
+  }
+  
+  .back{
+    padding: 1rem;
+    text-decoration: underline;
+  }
